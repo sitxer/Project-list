@@ -66,7 +66,7 @@ class ProjectCard extends Component {
 					toggleStatusVacancyFunc={this.props.toggleStatusVacancyFunc}
 				/>
 			)});
-		if (vacancies.length < 1){
+		if (this.props.filterString&&vacancies.length < 1){
 			return null;
 		}
 		data.vacancies.map((item) => {
