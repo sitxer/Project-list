@@ -44,7 +44,8 @@ const SearchBox = styled.div`
 const Checkbox = styled.label`
 	display: flex;
 	align-items: center;
-	margin-left: 1rem;
+	margin-left: 1rem;	
+	cursor: pointer;
 `;
 const CheckboxInput = styled.input`
 	opacity: 0;
